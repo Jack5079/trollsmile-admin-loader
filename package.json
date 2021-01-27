@@ -1,0 +1,28 @@
+{
+  "name": "trollsmile-admin-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rbxtsc && rojo build -o model.rbxmx",
+    "release-major": "npm version major && git push && git push --tags",
+    "release-minor": "npm version minor && git push && git push --tags",
+    "release-patch": "npm version patch && git push && git push --tags"
+  },
+  "keywords": [],
+  "author": "Jack <hello@5079.ml> (https://5079.ml)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troIIsmile/admin-loader/issues"
+  },
+  "homepage": "https://github.com/troIIsmile/admin-loader#readme",
+  "devDependencies": {
+    "@rbxts/compiler-types": "^1.0.0-beta.15.0",
+    "@rbxts/services": "^1.1.2",
+    "@rbxts/types": "^1.0.442"
+  },
+  "dependencies": {
+    "rbxts-transformer-services": "^1.0.0",
+    "roblox-ts": "^1.0.0-beta.15"
+  }
+}

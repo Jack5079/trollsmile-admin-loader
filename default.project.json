@@ -1,0 +1,12 @@
+{
+	"name": "trollsmile-admin-loader",
+	"tree": {
+		"$path": "out",
+		"include": {
+			"$path": "include",
+			"node_modules": {
+				"$path": "node_modules/@rbxts"
+			}
+		}
+	}
+}
