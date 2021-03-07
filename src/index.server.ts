@@ -14,7 +14,7 @@ const button = toolbar.CreateButton(
 
 function insert () {
 	button.SetActive(false)
-	const [latestBuild] = game.GetObjects('rbxassetid://5685499094')
+	const [latestBuild] = game.GetObjects('rbxassetid://6488124366')
 
 
 	if (trollsmile && trollsmile.Parent) {
